@@ -2,8 +2,10 @@ package dev.java;
 
 public class Computer {
     String name = "Apple";
-    String system = "MAC OS";
-    void printVersion() {
-        System.out.println(name + " is working");
+    void on(){
+        System.out.println("The method is on for " + name);
+    }
+    void off(){
+        System.out.println("The method is off for " + name);
     }
 }
